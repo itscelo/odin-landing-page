@@ -9,21 +9,27 @@
   color: white;
   padding: 20px;
   justify-content: space-around;
-  gap: 80px;
+  gap: 70px;
 }
 
 ul {
   display: flex;
-  gap: 10px;
+  gap: 15px;
   list-style: none;
 }
 
+li:hover {
+  cursor: pointer;
+  background-color: #3882f6;
+  padding: 4px;
+  border-radius: 6px;
+}
 .secondheader {
   margin-top: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 100px;
+  gap: 150px;
   padding: 40px;
 }
 
@@ -65,4 +71,30 @@ ul {
   font-size: 30px;
   color: #1f2937;
   font-weight: 900;
+}
+
+.signup:hover {
+  cursor: pointer;
+}
+
+.boxes {
+  height: 200px;
+  width: 200px;
+  border: solid 5px #3882f6;
+  margin-top: 50px;
+  border-radius: 6px;
+}
+
+.boxcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 80px;
+  align-items: center;
+}
+
+.text {
+  max-width: 200px;
+  margin-top: 25px;
+  text-align: center;
 }
