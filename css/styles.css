@@ -3,7 +3,10 @@
   padding: 0;
   font-family: "Roboto", serif;
 }
-
+body {
+  display: flex;
+  flex-direction: column;
+}
 .header {
   display: flex;
   color: white;
@@ -82,7 +85,7 @@ li:hover {
   width: 200px;
   border: solid 5px #3882f6;
   margin-top: 50px;
-  border-radius: 6px;
+  border-radius: 8px;
 }
 
 .boxcontainer {
@@ -91,10 +94,80 @@ li:hover {
   justify-content: center;
   gap: 80px;
   align-items: center;
+  margin-bottom: 90px;
 }
 
 .text {
   max-width: 200px;
   margin-top: 25px;
   text-align: center;
+}
+
+.quotecontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e6e7eb;
+  height: 300px;
+  padding: 60px;
+}
+
+.quote {
+  font-size: 30px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #1f2937;
+  max-width: 700px;
+}
+
+.wokequote .thor {
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.callaction {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  background-color: #3882f6;
+  padding: 50px;
+  border-radius: 8px;
+  height: 40px;
+  width: 800px;
+}
+
+.signupsection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  padding: 60px;
+}
+
+.calling {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.signupcall {
+  border: solid white 3px;
+  width: 100px;
+  background-color: #3882f6;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.footer {
+  margin-top: 50px;
+  background-color: #1f2937;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright {
+  color: white;
 }
